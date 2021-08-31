@@ -310,7 +310,7 @@ body {
   background-color: #ccc;
   transition: background-color 0.5s;
 }
-.key-feature__image:hover> img {
+.key-feature__image:hover > img {
   opacity: 100%;
   transition: 0.5s opacity;
 }
@@ -329,15 +329,15 @@ body {
   position: relative;
   height: 150px;
 }
-.main-footer nav{
+.main-footer nav {
   text-align: center;
 }
 .main-footer__links {
   list-style: none;
-margin: 0;
+  margin: 0;
   padding: 0;
   position: absolute;
-  top: 21%; 
+  top: 21%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -348,13 +348,12 @@ margin: 0;
   display: inline-block;
   margin: 0 30px;
 }
-.main-footer__link a{
+.main-footer__link a {
   color: #ffffff;
   text-decoration: none;
-  font-family: 'VazirThin';
-  
+  font-family: "VazirThin";
 }
-.GithubImage{
+.GithubImage {
   width: 30px;
   height: 30px;
   background-color: #ffffff;
@@ -370,5 +369,5 @@ margin: 0;
 }
 .copy {
   color: white;
-  font-family: 'VazirThin';
+  font-family: "VazirThin";
 }
