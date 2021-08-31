@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-position: relative;
+  position: relative;
 }
 :root {
   --primaryPurp: #6f4c5b; /*a most usage colors in page*/
@@ -46,7 +46,7 @@ position: relative;
 /* start WonderFull PopUp */
 .wonderfulPopup {
   position: absolute;
-  display: none;
+  /* display: none; */
   opacity: 80%;
   border-radius: 16px;
   top: 40%;
@@ -55,6 +55,7 @@ position: relative;
   background-color: var(--primaryYellLight);
   height: 600px;
   width: 65%;
+  overflow: hidden;
 }
 
 .Container1 {
@@ -72,13 +73,13 @@ position: relative;
   position: absolute;
   top: 60px;
   right: 10px;
-  font-family: 'VazirMedium';
+  font-family: "VazirMedium";
 }
 .close-outline {
-  width: 50px;    
+  width: 50px;
 }
 
-
+/* Finish Wonderfull pop up */
 
 /* header navbar start  */
 .header {
@@ -193,8 +194,8 @@ position: relative;
 }
 .plan--highlighted {
   background-color: var(--primaryPurp);
-  height:400px;
-  box-shadow: 0px 15px 31px -9px #000 ;
+  height: 400px;
+  box-shadow: 0px 15px 31px -9px #000;
 }
 .plan--highlighted .plan__title {
   color: var(--primaryPurp);
@@ -204,7 +205,7 @@ position: relative;
   margin-bottom: 22px;
   cursor: default;
   text-align: center;
-  background-color:var(--primaryYell);
+  background-color: var(--primaryYell);
 }
 .plan--highlighted .plan__selector {
   border-color: var(--primaryPurpLight);
@@ -247,6 +248,11 @@ position: relative;
 .Plans--lists li:last-child {
   margin-bottom: 6px;
 }
+
+.Wonderfull {
+  color: var(--primaryYellLight);
+}
+
 .plan__selector {
   padding: 12px;
   border: 3px solid var(--primaryPurp);
@@ -260,13 +266,53 @@ position: relative;
   font-family: "VazirBlack";
 }
 .plan__selector:hover,
-.plan__selector:active{
+.plan__selector:active {
   color: var(--primaryYellLight);
   background-color: var(--primaryPurp);
-  transition: color .1s ;  
-  transition: background .1s;
+  transition: color 0.1s;
+  transition: background 0.1s;
 }
-
-.Wonderfull {
-  color: var(--primaryYellLight);
+/* start Key features */
+#key-features {
+  background-color: #fdf3da;
+  margin-top: 80px;
+  text-align: center;
+  padding: 16px;
 }
+.section-title {
+  padding: 20px;
+  font-family: "VazirThin";
+  color: var(--primaryPurp);
+}
+.key-features__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.key-features__element {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+.key-feature__image {
+  width: 128px;
+  height: 128px;
+  border: 2px solid var(--primaryPurp);
+  margin: 20px auto;
+  border-radius: 50%;
+  background-color: var(--primaryPurpLight);
+  opacity: 50%;
+}
+.key-feature__image:hover {
+  opacity: 100%;
+  transition: 0.5s opacity;
+  background-color: #ccc;
+  transition: background-color 0.5s;
+}
+.key-features__description {
+  color: var(--primaryPurp);
+  font-size: 20px;
+  text-align: center;
+}
+/* finish Key feature */
