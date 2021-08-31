@@ -46,7 +46,7 @@ body {
 /* start WonderFull PopUp */
 .wonderfulPopup {
   position: absolute;
-  /* display: none; */
+  display: none; /*TODO: Change Display to block */
   opacity: 80%;
   border-radius: 16px;
   top: 40%;
@@ -320,3 +320,55 @@ body {
   text-align: center;
 }
 /* finish Key feature */
+/* start footer */
+.main-footer {
+  background-color: #000;
+  margin-top: 40px;
+  text-align: center;
+  padding: 16px;
+  position: relative;
+  height: 150px;
+}
+.main-footer nav{
+  text-align: center;
+}
+.main-footer__links {
+  list-style: none;
+margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 21%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.advance {
+  margin: 3px 0;
+}
+.main-footer__link {
+  display: inline-block;
+  margin: 0 30px;
+}
+.main-footer__link a{
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'VazirThin';
+  
+}
+.GithubImage{
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.logo-github {
+  width: 30px;
+  color: #ccc;
+}
+.copy {
+  color: white;
+  font-family: 'VazirThin';
+}
