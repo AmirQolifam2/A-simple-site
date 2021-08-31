@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+position: relative;
+}
 :root {
   --primaryPurp: #6f4c5b; /*a most usage colors in page*/
   --primaryPurpLight: #9e7777; /*a most usage colors in page*/
@@ -39,6 +42,44 @@
   font-weight: 900;
 }
 /* end of settings */
+
+/* start WonderFull PopUp */
+.wonderfulPopup {
+  position: absolute;
+  display: none;
+  opacity: 80%;
+  border-radius: 16px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--primaryYellLight);
+  height: 600px;
+  width: 65%;
+}
+
+.Container1 {
+  position: relative;
+}
+.Image__Container {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 10px;
+  right: 16px;
+}
+.Content {
+  padding: 10px 32px;
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  font-family: 'VazirMedium';
+}
+.close-outline {
+  width: 50px;    
+}
+
+
+
 /* header navbar start  */
 .header {
   width: 100%;
