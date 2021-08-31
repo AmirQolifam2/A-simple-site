@@ -310,6 +310,10 @@ body {
   background-color: #ccc;
   transition: background-color 0.5s;
 }
+.key-feature__image:hover> img {
+  opacity: 100%;
+  transition: 0.5s opacity;
+}
 .key-features__description {
   color: var(--primaryPurp);
   font-size: 20px;
